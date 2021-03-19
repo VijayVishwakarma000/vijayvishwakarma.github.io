@@ -300,6 +300,29 @@ width: 90%;
     border-radius:5px ;
   }
 
+  footer{
+    background-color: rgb(59, 59, 59);
+    color: #Fff;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .copy p{
+    font-size: 1.2rem;
+
+  }
+  footer .pt a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+  }
+  footer .pt a:hover{
+      color: rgba(255, 255, 255, 0.753);
+      text-decoration: underline;
+  }
+
 @media(max-width:1300px){
     html{
         font-size: 60%;
@@ -421,6 +444,9 @@ width: 90%;
         width: 100%;
         margin-top: 17px;
     }
+    footer {
+        flex-wrap:wrap ;
+    }
 }
 @media(max-width:340px){
     html{
@@ -480,8 +506,8 @@ width: 90%;
         margin: 11px 14px;
         transition: 0.3s ease-in-out;
         cursor: default;
-}
-@media(max-width:550px) and (orientation:landscape){
+    }
+    @media(max-width:550px) and (orientation:landscape){
     .service-wrapper .card-section .card {
         background-color: rgba(0, 0, 0, 0.514);
         height: auto;
@@ -498,4 +524,5 @@ width: 90%;
         padding: 2rem;
         margin: 0% 0px;
     }
+}
 }

@@ -119,17 +119,26 @@
             <form action="" > 
                 
                  <input type="text" name="firstname" id="firstname" placeholder="FirstName"  autocomplete="off">
-                 <input type="text" name="lastname" id="secondname" placeholder="SecondName" autocomplete="off">
-                <input type="email" name="Email" id="Email" placeholder="Email" autocomplete="off">
+                 <input type="email" name="Email" id="Email" placeholder="Email" autocomplete="off">
+                 <input type="text" name="lastname" id="subject" placeholder="Subject" autocomplete="off">
                 <textarea name="message" id="msg-box" cols="60" rows="10" placeholder="Message" autocomplete="off"></textarea>
-                <button type="submit" >Submit</button>
+                <button type="submit" onclick="send()">Submit</button>
             </form>
             </div>
     </div>
 </section>
+    <footer>
+        <div class="copy">
+        <p>Copyright &copy; Vijay vishwakarma all rights and reserved</p>
+    </div>
+    <div class="pt">
+        <a href="#">Privacy&policy</a>
+        <a href="#">Terms and condition</a>
+    </div>    
+    </footer>
 
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/app.js"></script>
 </body>
